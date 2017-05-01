@@ -7,3 +7,7 @@ project/target/resolution-cache/
 project/target/streams
 target/resolution-cache/
 target/streams/
+.gradle
+build
+gradle
+temp-1
