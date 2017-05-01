@@ -29,16 +29,21 @@ object MpqDiff extends App {
     println("\n  Invalid arguments. See README.md for usage.")
   } else {
     val editors = args.map { arg: String =>
-      println(s"\n  Opening editor of $arg.");
+      println(s"\n  Opening editor of $arg.")
       new JMpqEditor(new File(arg))
     }
 
     val temp_listings = editors.zipWithIndex.map { case (editor: JMpqEditor, index: Int) =>
       println(s"\n  Extracting files from editor $index.")
 
-      val f = new File("temp-" + index);
-      f.mkdir;
-      editor.extractAllFiles(f);
+      val f = new File("temp-" + index)
+      if (f.isDirectory) {
+        f.listFiles.foreach { _.delete }
+        f.delete
+      }
+
+      f.mkdir
+      editor.extractAllFiles(f)
 
       f.listFiles.filter { _.isFile }
     }
@@ -49,7 +54,7 @@ object MpqDiff extends App {
     }
 
     comp_files.zip(comp_hashes).filter { case (files: Array[File], hashes: Array[String]) =>
-      (files(0) != files(1)) || (hashes(0) != hashes(1))
+      (files.length < 2 || hashes.length < 2 || files(0) != files(1)) || (hashes(0) != hashes(1))
     }.foreach { case (files, hashes) =>
       val fnames = files.map(_.getName)
       println(s"  Files differ: %s,\t%s\t\t(%s - %s).".format(fnames(0), fnames(1), hashes(0), hashes(1)))
