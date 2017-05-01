@@ -3,5 +3,26 @@
 MpqDiff works by naively iterating over files in a pair of directories that contain all extracted MPQ contents.
 Therefore MpqDiff will immediately spew diffs if one of the archives is missing a file.
 
-* Be sure both archive have a listfile and an attributes file.
 * Suggest piping output to a file as JMPQ extract function can be quite spammy.
+
+Sample output -
+
+    Files differ: (attributes),   (attributes)            (94FE5EA4A1785A586EDB40FF2134F469 - D41D8CD98F00B204E9800998ECF8427E).
+    Files differ: (listfile),     (listfile)              (A5FC6B2DEDABEC821EE7BDDE68615070 - AF493D32FBEBE70068606FE619118AC5).
+    Files differ: A.mpq,  A.mpq           (733DA8685E92706BCEFC438103C5F014 - 6BDD1F4577DAE26A33548AE3D99A65F8).
+    Files differ: B.mpq,  B.mpq           (515DCA4B29FCFEF6DFB51939D9C023FE - FE631B6C62A9F42C90EA70CB0F90C62D).
+    Files differ: C.mpq,  C.mpq           (9D02DBFC8EC8B54EC38A0FBC4007A219 - E2B69F7811E65B0206EA4DC901CFB2E8).
+    Files differ: config.txt,     config.txt              (D1D06DC8889F16D72EE542570455F3F8 - D1D06DC8889F16D72EE542570455F3F8).
+    Files differ: D.mpq,  D.mpq           (D6CC449706BAE95483732D89144EF94A - 3ED1D174FCBC3069EE50DF5F136CEC59).
+    Files differ: F.mpq,  F.mpq           (D18AD5317A6165F9669A039B6007BE77 - 1B940D74D0DC0D0F7A0A1B61DFC3EEBB).
+    Files differ: G.mpq,  G.mpq           (CCFC085AB2325FBECF1585AE190F9262 - 1E22B63CF4DFBD35AAFB7139BD956499).
+    Files differ: L.mpq,  L.mpq           (FFC20702369EF7895A9143ECFA6AA4D8 - 5321006653A955A034A248A4E79FA265).
+    Files differ: N.mpq,  N.mpq           (FB3C48ED4850E2A18ED4551A80F6118F - 61DE0D22026958D508A4C622067DBF47).
+    Files differ: Q.mpq,  Q.mpq           (9DC8054CF3B80210F61A1F398B6D8814 - D9765519303DD55E80EB4C73CA8EC170).
+    Files differ: T.mpq,  T.mpq           (52BFB302C2F323125BA93EEF49366CB7 - 895961F5D7E26F8C8C679AF7A046E4AA).
+    Files differ: V.mpq,  V.mpq           (6B4893B727ECD92EB39476FDDAC8B4C3 - 71B2522ADAD3F071A779DEDAD16DD4F5).
+    Files differ: W.mpq,  W.mpq           (38BB06CDCAE2D189027B82A4C8213FF6 - 23333EFD03E52552F820CF3CFBCA189F).
+    Files differ: War3_low.mpq,   War3_low.mpq            (82A86BC1C721AA1E7E8DFF01A3E545F5 - 7B1A48E281B1BC169B034ABA3FD8C11F).
+    Files differ: War3_med.mpq,   War3_med.mpq            (AAE880945220F2B4A87BACEDF1C55B1F - 148382CA65912DD68F5337208EF49236).
+    Files differ: X.mpq,  X.mpq           (E8D519804CF998DB53B272DA94608053 - 300CCE383361450114A90B7735EA34E3).
+    Files differ: Y.mpq,  Y.mpq           (D1544BFCBCA9DF6310163CD375BCF600 - 64530CC321F8C22D003A0EF2B603232E).

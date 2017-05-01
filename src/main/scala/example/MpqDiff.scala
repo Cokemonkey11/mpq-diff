@@ -9,8 +9,8 @@ import systems.crigges.jmpq3.JMpqEditor
 
 object Generator {
   implicit class Helper(val sc: StringContext) extends AnyVal {
-    def md5():    String = generate("MD5", sc.parts(0))
-    def sha():    String = generate("SHA", sc.parts(0))
+    def md5():    String = generate("MD5",     sc.parts(0))
+    def sha():    String = generate("SHA",     sc.parts(0))
     def sha256(): String = generate("SHA-256", sc.parts(0))
   }
   // t is the type of checksum, i.e. MD5, or SHA-512 or whatever
@@ -43,6 +43,7 @@ object MpqDiff extends App {
       }
 
       f.mkdir
+      new File("temp-" + index + File.separator + "(attributes)").createNewFile
       editor.extractAllFiles(f)
 
       f.listFiles.filter { _.isFile }
