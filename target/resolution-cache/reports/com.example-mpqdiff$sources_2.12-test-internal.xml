@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.example"
+		module="mpqdiff$sources_2.12"
+		revision="0.1.0-SNAPSHOT"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170501005214"/>
+	<dependencies>
+		<module organisation="org.scalatest" name="scalatest_2.12">
+			<revision name="3.0.1" status="release" pubdate="20161110055252" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="5340" time="0" location="C:\Users\Blake\.ivy2\cache\org.scalatest\scalatest_2.12\ivy-3.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.pom"/>
+				<caller organisation="com.example" name="mpqdiff$sources_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="3.0.1" rev-constraint-default="3.0.1" rev-constraint-dynamic="3.0.1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalatest_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1643660" time="0" location="C:\Users\Blake\.ivy2\cache\org.scalatest\scalatest_2.12\srcs\scalatest_2.12-3.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
+			<revision name="1.0.4" status="release" pubdate="20161029001045" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2964" time="0" location="C:\Users\Blake\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.pom"/>
+				<caller organisation="com.example" name="mpqdiff$sources_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42274" time="0" location="C:\Users\Blake\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\srcs\scala-parser-combinators_2.12-1.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
+			<revision name="1.0.5" status="release" pubdate="20161029001007" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3175" time="0" location="C:\Users\Blake\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.pom"/>
+				<caller organisation="com.example" name="mpqdiff$sources_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-xml_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109241" time="0" location="C:\Users\Blake\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\srcs\scala-xml_2.12-1.0.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalactic" name="scalactic_2.12">
+			<revision name="3.0.1" status="release" pubdate="20161110055016" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3002" time="0" location="C:\Users\Blake\.ivy2\cache\org.scalactic\scalactic_2.12\ivy-3.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.pom"/>
+				<caller organisation="com.example" name="mpqdiff$sources_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="3.0.1" rev-constraint-default="3.0.1" rev-constraint-dynamic="3.0.1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalactic_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="201082" time="0" location="C:\Users\Blake\.ivy2\cache\org.scalactic\scalactic_2.12\srcs\scalactic_2.12-3.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.2" status="release" pubdate="20170413091812" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2860" time="0" location="C:\Users\Blake\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.12.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.2/scala-reflect-2.12.2.pom"/>
+				<caller organisation="com.example" name="mpqdiff$sources_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.12.2/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="574818" time="0" location="C:\Users\Blake\.ivy2\cache\org.scala-lang\scala-reflect\srcs\scala-reflect-2.12.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.2/scala-reflect-2.12.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="systems.crigges" name="jmpq3">
+			<revision name="1.0.5" status="release" pubdate="20161219225112" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://bitbucket.org/johndoe/foo" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="GPL License" url="http://www.gnu.org/licenses/gpl-3.0.de.html"/>
+				<metadata-artifact status="no" details="" size="2931" time="0" location="C:\Users\Blake\.ivy2\cache\systems.crigges\jmpq3\ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/systems/crigges/jmpq3/1.0.5/jmpq3-1.0.5.pom"/>
+				<caller organisation="com.example" name="mpqdiff$sources_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jmpq3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12843" time="0" location="C:\Users\Blake\.ivy2\cache\systems.crigges\jmpq3\srcs\jmpq3-1.0.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/systems/crigges/jmpq3/1.0.5/jmpq3-1.0.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jcraft" name="jzlib">
+			<revision name="1.1.3" status="release" pubdate="20131004085457" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jcraft.com/jzlib/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="BSD" url="http://www.jcraft.com/jzlib/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3101" time="0" location="C:\Users\Blake\.ivy2\cache\com.jcraft\jzlib\ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/jcraft/jzlib/1.1.3/jzlib-1.1.3.pom"/>
+				<caller organisation="com.example" name="mpqdiff$sources_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jzlib" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="75560" time="0" location="C:\Users\Blake\.ivy2\cache\com.jcraft\jzlib\srcs\jzlib-1.1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/jcraft/jzlib/1.1.3/jzlib-1.1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.12" status="release" pubdate="20150326205005" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4785" time="0" location="C:\Users\Blake\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom"/>
+				<caller organisation="com.example" name="mpqdiff$sources_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50813" time="0" location="C:\Users\Blake\.ivy2\cache\org.slf4j\slf4j-api\srcs\slf4j-api-1.7.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.2" status="release" pubdate="20170413091911" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.2/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\Blake\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.pom"/>
+				<caller organisation="com.example" name="mpqdiff$sources_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.12.2/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="990185" time="0" location="C:\Users\Blake\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.12.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
