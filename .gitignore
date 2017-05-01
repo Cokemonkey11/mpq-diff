@@ -2,3 +2,8 @@
 War3.mpq
 War3.w3x
 temp-0/
+project/target/config-classes
+project/target/resolution-cache/
+project/target/streams
+target/resolution-cache/
+target/streams/
